@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    width: 42%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+.nav-link>a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link>a:hover {
+    color: #ED1C24;
+}
+
+.getstarted-btn {
+    margin-left: 20px;
+}
+
+.getstarted-btn>button {
+    padding: 7px;
+    font-weight: 600;
+    color: white;
+    background-color: #ED1C24;
+    border: 0;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.bi-plus-circle {
+    font-size: 23px;
+}
+
+.getstarted-btn>button:hover {
+    opacity: 0.8;
+}
+
+.menu {
+    display: none;
+}
+
+.bi-list {
+    font-size: 2rem;
+}
+
+/* Hero section */
+
+.hero {
+    min-height: 40dvh;
+    width: 70%;
+    margin: 100px auto 40px;
+    text-align: center;
+}
+
+.hero>h1 {
+    font-size: 59.752px;
+}
+
+.hero>p {
+    font-size: 24px;
+}
+
+/* Card section */
+
+.card-section {
+    min-height: 40dvh;
+    width: 96%;
+    margin: auto;
+}
+
+.card-section .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-section .card {
+    height: 500px;
+    width: 32%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-img-box {
+    width: 100%;
+    padding: 20px;
+}
+
+.card-img-box h2 {
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+}
+
+.card-body {
+    padding: 20px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
+    font-size: 20px;
+    height: 20dvh;
+    line-height: 28px;
+}
+
+.card-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    background-color: RGBA(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.card-link .bi-chevron-right {
+    font-size: 10px;
+}
+
+.card:nth-child(1) {
+    background-color: #EE8695;
+}
+
+.card:nth-child(2) {
+    background-color: #E09396;
+}
+
+.card:nth-child(3) {
+    background-color: #CFE8FF;
+}
+
+.card:nth-child(4) {
+    background-color: #91A6C9;
+}
+
+.card:nth-child(5) {
+    background-color: #ED86CD;
+}
+
+.card:nth-child(6) {
+    background-color: #AA9BC6;
+}
+
+.card:nth-child(7) {
+    background-color: #8AB8B6;
+}
+
+.card:nth-child(8) {
+    background-color: #8598DA;
+}
+
+.card:nth-child(9) {
+    background-color: #9ECBC4;
+}
+
+.card:nth-child(10) {
+    background-color: #F9DD93;
+}
+
+.card:nth-child(11) {
+    background-color: #D6CCC0;
+}
+
+.card:nth-child(12) {
+    background-color: #D49697;
+}
+
+.card:nth-child(13) {
+    background-color: #A3C9A0;
+}
+
+.card:nth-child(1) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/cincinnati_cyclones/hero-704-5f7aa247530ee67471e6861fcc797fb1b18b531503235bf46eba6a5216a0e628.webp");
+}
+
+.card:nth-child(2) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/defqon_1/hero-704-cdec1e672285ae4565ff50a5a9b7c3bcb175424ef78d5df21af70b609043546e.webp");
+}
+
+.card:nth-child(3) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/nycfc/hero-1408-5c5c1f4496043a218daa9992a8d40b661cd3c9be17edd1ac6bed3283dd17c7e2.webp");
+}
+
+.card:nth-child(4) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/omaha_storm_chasers/hero-2112-3d2dabe408e5569213551cfbddf70199100589db82d860881ca9839a0957fbb0.webp");
+}
+
+.card:nth-child(5) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/our_radio_by_mencap/hero-2112-cd8564862ceb0fc16764b322897af8ce19d84ff96845c122b4a5e99f2b9212c8.webp");
+}
+
+.card:nth-child(6) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/reading_royals/hero-2112-e98359d53306bc26bb64590e6b23db7d25a78415a21c90a43d9cfa0cec9b4cb8.webp");
+}
+
+.card:nth-child(7) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/ryan_jespersen/hero-2112-10fbe3f80dba9398b60174d1f477d30f4cc8aec5f5404c0ffafa19efeb83b4a8.webp");
+}
+
+.card:nth-child(8) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/south_carolina_stingrays/hero-2112-a2b87cfad6cd5bc1ecf5007964e47796941b1a937cd3efffa7dbd8d5e239a65d.webp");
+}
+
+.card:nth-child(9) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/tahoe_knight_monsters/hero-2112-b732213fcf26d3668a4cda589734d0e7bd7e25d7cd6971efa4884a1f88f19e79.webp");
+}
+
+.card:nth-child(10) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/the_bison/hero-2112-ddf83bfcf791d9f85b86e14d439435053d07d581c8d90de74d21556beb5843e0.webp");
+}
+
+.card:nth-child(11) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/the_infamous_stringdusters/hero-2112-93a737811dfaab60080b1218928d24e8db70a89aa914742044b3b36ca7ed2b98.webp");
+}
+
+.card:nth-child(12) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/university_of_nebraska_lincoln/hero-2112-ac74aeba65b990a9cf823e926626f89b1a178281db9711cf4f3ae3032ada7e15.webp");
+}
+
+.card:nth-child(13) .card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.483)), url("https://d23yw4k24ca21h.cloudfront.net/assets/landing_pages/case_studies/yeovil_town/hero-2112-67c68fcaf7d0b6c511aa770bd09cf26293d80c3b0bc014a1f212dc693eb8e969.webp");
+}
+
+/* Company section */
+
+.company-section {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.company-section h2 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.company-section h2 span {
+    color: #ED1C24;
+}
+
+.company-logos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px 40px;
+    align-items: center;
+}
+
+.company-logos img {
+    width: 150px;
+    max-height: 90px;
+    object-fit: contain;
+    margin: auto;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 900px) {
+
+    .nav-ul {
+        display: none;
+    }
+
+    .getstarted-btn {
+        margin-left: auto;
+    }
+
+    .menu {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .hero {
+        min-height: 10dvh;
+        width: 80%;
+    }
+
+    .hero>h1 {
+        font-size: 40px;
+    }
+
+    .card-section .card {
+        width: 49%;
+    }
+
+    .company-section {
+        width: 90%;
+    }
+
+    .company-section h2 {
+        font-size: 40px;
+    }
+
+    .company-logos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px 25px;
+    }
+
+    .company-logos img {
+        width: 120px;
+        max-height: 80px;
+    }
+
+    footer {
+    padding: 60px 20px 25px;
+}
+
+.footer-links {
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    font-size: 15px;
+}
+
+.copyright {
+    font-size: 13px;
+}
+}
+
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+
+    .hero>h1 {
+        font-size: 30px;
+    }
+
+    .hero>p {
+        font-size: 1.1rem;
+    }
+
+    .card-section .card {
+        width: 100%;
+    }
+
+    .company-section {
+        width: 90%;
+        margin: 80px auto;
+    }
+
+    .company-section h2 {
+        font-size: 35px;
+        line-height: 1.1;
+        margin-bottom: 55px;
+    }
+
+    .company-logos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 55px 15px;
+    }
+
+    .company-logos img {
+        width: 90px;
+        max-height: 70px;
+    }
+
+    
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 80px 20px 30px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0 40px;
+}
+
+.social-icons a {
+    color: #ED1C24;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-links a {
+    color: #555;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-links a:hover {
+    color: #ED1C24;
+}
+
+.copyright {
+    color: #555;
+    font-size: 16px;
+}
